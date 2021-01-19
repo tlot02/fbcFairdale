@@ -1,0 +1,51 @@
+/* As I build this css from scratch, I plan to build it from the top of the page down. Beginning with the nav and workign to the footer. I'm aiming to make it look nice on mobie and then allow the content to strech to larger screens from there */
+
+/* color pallete
+#44748c - Fairdale Blue
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+}
+
+p {
+}
+
+/* Classes */
+.full-height {
+  height: 100vh;
+}
+
+/* IDs */
+
+#navbar {
+  display: flex;
+  border: 2px solid green;
+  margin: auto;
+  justify-content: space-around;
+  width: auto;
+}
+
+#navbar li {
+  list-style: none;
+  color: #44748c;
+  padding: 10px 5px;
+  border: 2px solid red;
+}
+
+a:visited {
+  color: #44748c;
+}
