@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #44748c;
+}
+
 h1 {
 }
 
@@ -31,21 +35,7 @@ p {
 
 /* IDs */
 
-#navbar {
-  display: flex;
-  border: 2px solid green;
-  margin: auto;
-  justify-content: space-around;
-  width: auto;
-}
-
-#navbar li {
-  list-style: none;
-  color: #44748c;
-  padding: 10px 5px;
-  border: 2px solid red;
-}
-
-a:visited {
-  color: #44748c;
+#logo {
+  max-width: 50%;
+  padding: 25px;
 }
