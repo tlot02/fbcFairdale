@@ -85,8 +85,8 @@ a:visited {
   z-index: 1;
   left: 0;
   top: 0;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -106,15 +106,15 @@ a:visited {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: #474747;
   display: block;
   transition: 0.3s;
 }
 
 /* change color on hover */
-.overlay a.hover,
+.overlay a:hover,
 .overlay a:focus {
-  color: #f1f1f1;
+  color: #44748c;
 }
 
 /* position close button */
