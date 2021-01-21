@@ -60,7 +60,7 @@ a:visited {
 #logo {
   /* border: 2px solid red; */
   max-width: 50%;
-  height: auto;
+  height: 100%;
   padding: 25px;
 }
 
