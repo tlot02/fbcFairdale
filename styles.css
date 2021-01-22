@@ -12,6 +12,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #ececec;
 }
 
 a {
@@ -42,6 +43,12 @@ a:visited {
   margin: 3px 0px;
   border-radius: 10px;
   transition: 0.4s;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .top-flex-container {
@@ -123,4 +130,18 @@ a:visited {
   /* border: 2px solid red; */
   max-width: 50%;
   padding: 25px;
+}
+
+#welcome {
+  background-image: linear-gradient(to top, transparent, #ececec 90%),
+    url(./images/fairdale.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #474747;
+}
+
+#welcome h1 {
+  /* border: 2px red solid; */
+  color: black;
+  font-size: 43px;
 }
