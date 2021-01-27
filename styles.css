@@ -12,7 +12,21 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #ececec;
+
+  background-image: url("./images/pews.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #474747;
+}
+
+h1 {
+  color: #44748c;
+  font-size: 43px;
+}
+
+h2 {
+  color: #ececec;
 }
 
 a {
@@ -132,16 +146,10 @@ a:visited {
   padding: 25px;
 }
 
-#welcome {
-  background-image: linear-gradient(to top, transparent, #ececec 90%),
+/* #welcome {
+  background-image: linear-gradient(to top, transparent 80%, #ececec),
     url(./images/fairdale.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: #474747;
-}
-
-#welcome h1 {
-  /* border: 2px red solid; */
-  color: black;
-  font-size: 43px;
-}
+} */

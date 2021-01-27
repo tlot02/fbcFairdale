@@ -1,6 +1,6 @@
-// function myFunction(x) {
-//   x.classList.toggle("change");
-// }
+function myFunction(x) {
+  x.classList.toggle("change");
+}
 
 function openNav() {
   document.getElementById("overlayNav").style.height = "100%";
