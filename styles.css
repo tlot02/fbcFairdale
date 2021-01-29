@@ -23,7 +23,8 @@ body {
 
 h1 {
   color: #5eb8e6;
-  font-size: 43px;
+  font-size: 55px;
+  text-align: center;
 }
 
 h2 {
@@ -52,6 +53,10 @@ a:visited {
   /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
+}
+
+.burger:hover {
+  transform: scale(1.1);
 }
 
 .bar-1,
@@ -151,6 +156,11 @@ a:visited {
   /* border: 2px solid red; */
   max-width: 50%;
   padding: 25px;
+}
+
+#topbanner {
+  justify-content: center;
+  padding-top: 13%;
 }
 
 /* #welcome {
